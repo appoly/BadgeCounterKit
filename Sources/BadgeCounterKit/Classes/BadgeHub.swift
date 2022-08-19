@@ -40,9 +40,11 @@ public class BadgeCounterKit: NSObject {
         }
     }
     
+    public var frame: CGRect { return baseFrame }
+    
     private var redCircle: BadgeView!
     private var initialCenter = CGPoint.zero
-    private(set) var baseFrame = CGRect.zero
+    private var baseFrame = CGRect.zero
     private var initialFrame = CGRect.zero
     
     private struct Constants {
