@@ -1,5 +1,5 @@
 //
-//  BadgeHub.swift
+//  BadgeCounterKit.swift
 //
 //  Created by Jogendra on 31/05/19.
 //  Copyright © 2019 Jogendra. All rights reserved.
@@ -17,7 +17,7 @@ fileprivate class BadgeView: UIView {
 
 /// A way to quickly add a notification badge icon to any view.
 /// Make any view of a full-fledged animated notification center.
-public class BadgeHub: NSObject {
+public class BadgeCounterKit: NSObject {
     
     /// Value of current count on badge.
     var count: Int = 0 {

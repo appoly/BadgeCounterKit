@@ -1,12 +1,8 @@
-# BadgeCounterKit
+# BadgeCounterKit (formally Badgehub)
 
 A way to quickly add a notification badge icon to any view.
 
 <img src="https://user-images.githubusercontent.com/20956124/52379966-080a5f00-2a92-11e9-8c85-9c34fabd4641.png">
-
-[![Version](https://img.shields.io/cocoapods/v/BadgeHub.svg?style=flat)](https://cocoapods.org/pods/BadgeHub)
-[![License](https://img.shields.io/cocoapods/l/BadgeHub.svg?style=flat)](https://cocoapods.org/pods/BadgeHub)
-[![Platform](https://img.shields.io/cocoapods/p/BadgeHub.svg?style=flat)](https://cocoapods.org/pods/BadgeHub)
 
 ![Blink](https://imgur.com/AEgi5tW.gif) ![Bump](https://i.imgur.com/238tikf.gif) ![Pop](https://i.imgur.com/aQ0sOtZ.gif) ![Custom](https://i.imgur.com/PhlDWXW.gif) ![setCircle](https://i.imgur.com/8CtI0nf.gif) ![showCount](https://i.imgur.com/VHdp2vO.gif) ![mix](https://i.imgur.com/4DohGxr.gif) ![hideCount](https://i.imgur.com/E3hOrX5.gif)
 
@@ -23,13 +19,13 @@ A way to quickly add a notification badge icon to any view.
 Initialization.
 
 ```swift
-let hub = BadgeHub(view: yourView) // Initially count set to 0
+let hub = BadgeCounterKit(view: yourView) // Initially count set to 0
 ```
 
 Initializer for setting badge to bar button items.
 
 ```swift
-let hub = BadgeHub(barButtonItem: UIBarButtonItem)
+let hub = BadgeCounterKit(barButtonItem: UIBarButtonItem)
 ```
 
 Increase count value by **1**.
@@ -76,7 +72,7 @@ hub.increment()
 hub.pop()
 hub.blink()
 ```
-**Don't forget to `import BadgeHub`**
+**Don't forget to `import BadgeCounterKit`**
 
 ## Customization
 
@@ -192,7 +188,7 @@ hub.bump()
 * Make sure you didn't call `hideCount()` anywhere. Call `showCount()` to counter this.
 
 **Badge is not hiding even after setting value to 0**
-* Make sure you are setting zero count on correct BadgeHub instance.
+* Make sure you are setting zero count on correct BadgeCounterKit instance.
 * Try calling `checkZero()` method after setting count to 0.
 * Varify if current count is <= 0 by calling `getCurrentCount()` method.
 * Keep in mind that `hideCount()` method is for hiding just count, not the badge. To hide the badge, simply call `hide()`.
@@ -231,4 +227,4 @@ Jogendra Kumar
 
 ## License
 
-BadgeHub is available under the MIT license. See the [LICENSE](LICENSE) file for more info.
+BadgeCounterKit is available under the MIT license. See the [LICENSE](LICENSE) file for more info.
