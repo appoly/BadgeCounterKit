@@ -1,4 +1,4 @@
-# BadgeHub
+# BadgeCounterKit
 
 A way to quickly add a notification badge icon to any view.
 
@@ -10,29 +10,6 @@ A way to quickly add a notification badge icon to any view.
 
 ![Blink](https://imgur.com/AEgi5tW.gif) ![Bump](https://i.imgur.com/238tikf.gif) ![Pop](https://i.imgur.com/aQ0sOtZ.gif) ![Custom](https://i.imgur.com/PhlDWXW.gif) ![setCircle](https://i.imgur.com/8CtI0nf.gif) ![showCount](https://i.imgur.com/VHdp2vO.gif) ![mix](https://i.imgur.com/4DohGxr.gif) ![hideCount](https://i.imgur.com/E3hOrX5.gif)
 
-## Demo/Example
-For demo:
-
-```ruby
-$ pod try BadgeHub
-```
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-```ruby
-$ cd Example
-```
-
-```ruby
-$ pod install
-```
-
-If you don't have CocoaPods installed, grab it with `[sudo] gem install cocoapods`.
-
-```ruby
-$ open BadgeHub.xcworkspace
-```
-
 ## Requirements
 
 - iOS 10.0 or later
@@ -40,18 +17,6 @@ $ open BadgeHub.xcworkspace
 - Xcode 10+
 
 ## Installation
-
-#### CocoaPods
-
-BadgeHub is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod 'BadgeHub'
-```
-
-#### Manual Installation
-Just drag the `BadgeHub.swift` files into your project.
 
 ## Usage
 
